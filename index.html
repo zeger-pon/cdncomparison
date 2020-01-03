@@ -86,6 +86,7 @@
                             <thead>
                                 <tr>
                                     <th></th>
+                                    <th width="140"><a href="https://www.cloudfare.com" rel="nofollow">Cloudflare</a></th>
                                     <th width="140"><a href="http://aws.amazon.com/cloudfront" rel="nofollow">CloudFront</a></th>
                                     <th width="140"><a href="http://azure.microsoft.com/en-us/services/cdn" rel="nofollow">Azure</a></th>
                                     <th width="140"><a href="https://www.keycdn.com" rel="nofollow">KeyCDN</a></th>
@@ -102,6 +103,7 @@
                             <tbody>
                                 <tr class="tr-comp-section">
                                     <th><em>General</em></th>
+                                    <td></td>                                    <
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -120,6 +122,7 @@
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o partially"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
@@ -130,6 +133,7 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Transparent Pricing</th>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -147,6 +151,7 @@
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o partially"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o partially"></i></td>
@@ -158,6 +163,7 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">No Charges for Requests</th>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -172,6 +178,11 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Bandwith Pricing US&EU</th>
+                                    <td>
+                                        <small>
+                                            <p class="fw-semi-bold">$0.0</p>
+                                        </small>
+                                    </td>
                                     <td>
                                         <small>
                                             <p class="fw-semi-bold">$0.085</p>
@@ -205,6 +216,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Points of Presence</th>
+                                    <!-- https://community.cloudflare.com/t/how-many-datacenters-does-cloudflare-have-exactly/56642 -->
+                                    <td><small>165</small></td>
                                     <td><small>100+</small></td>
                                     <td><small>53</small></td>
                                     <td><small>33</small></td>
@@ -230,6 +243,7 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Origin Pull</th>
@@ -244,9 +258,12 @@
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Origin Push</th>
+                                    <!-- https://www.cloudflare.com/website-optimization/http2/serverpush/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o partially"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -261,6 +278,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Instant Purge</th>
+                                    <!-- https://support.cloudflare.com/hc/en-us/articles/200169246-How-do-I-purge-my-cache-#Caching-HowdoIpurgemycache? -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o partially" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Only invalidates assets."></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -275,6 +294,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp"><span data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Partially if delayed more than 30s.">Real-time Statistics</span></th>
+                                    <!-- https://developers.cloudflare.com/logs/faq/#once-a-request-has-passed-through-the-cloudflare-network-how-soon-are-the-logs-available -->
+                                    <td><i class="fa fa-check-circle-o partially"></i></td>
                                     <td><i class="fa fa-check-circle-o partially"></i></td>
                                     <td><i class="fa fa-check-circle-o cost" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Premium only."></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -289,6 +310,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Raw Logs</th>
+                                    <!-- https://developers.cloudflare.com/logs/logpull-api/ -->
+                                    <td><i class="fa fa-check-circle-o cost"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -303,6 +326,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Origin Shield</th>
+                                    <!-- https://blog.cloudflare.com/argo/ -->
+                                    <td><i class="fa fa-check-circle-o cost"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -317,6 +342,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Custom Rules</th>
+                                    <!-- https://www.cloudflare.com/features-page-rules/ -->
+                                    <td><i class="fa fa-check-circle-o partially" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Extra rules only in paid plans."></i></td>
                                     <td><i class="fa fa-check-circle-o partially"></i></td>
                                     <td><i class="fa fa-check-circle-o cost" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Premium only."></i></td>
                                     <td><i class="fa fa-check-circle-o cost"></i></td>
@@ -331,6 +358,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">CORS</th>
+                                    <!-- https://developers.cloudflare.com/access/setting-up-access/cors/ -->                                    
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-question-circle unknown"></i></td>
                                     <td><i class="fa fa-question-circle unknown"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -345,6 +374,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">GZIP Compression</th>
+                                    <!-- https://developers.cloudflare.com/logs/logpull-api/additional-details/#compression -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -359,6 +390,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Brotli Compression</th>
+                                    <!-- https://support.cloudflare.com/hc/en-us/articles/200168396-What-will-Cloudflare-compress- -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o partially"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -373,6 +406,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">HTTP/2</th>
+                                    <!-- https://www.cloudflare.com/website-optimization/http2/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -386,7 +421,24 @@
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                 </tr>
                                 <tr>
+                                    <th class="th-comp">HTTP/3</th>
+                                    <!-- https://developers.cloudflare.com/http3/intro/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>                                    
+                                </tr>                                
+                                <tr>
                                     <th class="th-comp">ALPN</th>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-question-circle unknown"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -401,6 +453,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Purge By Tag</th>
+                                    <!-- https://support.cloudflare.com/hc/en-us/articles/200169246 -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-question-circle unknown"></i></td>
                                     <td><i class="fa fa-question-circle unknown"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -415,6 +469,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Stale-While-Revalidate</th>
+                                    <!-- https://support.cloudflare.com/hc/en-us/articles/200172516 -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o partially"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -429,6 +485,7 @@
                                 </tr>
                                  <tr>
                                     <th class="th-comp">Byte-range Requests</th>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -444,6 +501,7 @@
                                 <tr>
                                     <th class="th-comp">100% SSD</th>
                                     <td><i class="fa fa-question-circle unknown"></i></td>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -457,6 +515,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">IPv6</th>
+                                    <!-- https://www.cloudflare.com/ipv6/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-question-circle unknown"></i></td>
@@ -471,6 +531,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">API</th>
+                                    <!-- https://api.cloudflare.com/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -496,9 +558,12 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Video on Demand (VOD) over RTMP</th>
+                                    <!-- https://www.cloudflare.com/products/cloudflare-stream/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
@@ -513,6 +578,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">RTMP Live Streaming</th>
+                                    <!-- https://blog.cloudflare.com/introducing-concurrent-streaming-acceleration/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
@@ -538,9 +605,12 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Shared SSL</th>
+                                    <!-- https://www.cloudflare.com/ssl/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -555,6 +625,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Custom SSL</th>
+                                    <!-- https://www.cloudflare.com/ssl/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Based on SNI."></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Based on SNI."></i></td>
@@ -569,6 +641,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Wildcard SSL</th>
+                                    <!-- https://www.cloudflare.com/ssl/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Based on SNI."></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Based on SNI."></i></td>
@@ -583,6 +657,7 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Let's Encrypt Integration</th>
+                                    <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"  data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="comparable to LetsEncrypt, AWS offers easy, free, auto-renewing SSLs thru Certificate Manager."></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -597,6 +672,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Secure Token</th>
+                                    <!-- https://support.cloudflare.com/hc/en-us/articles/115001376488-Configuring-Token-Authentication -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -611,6 +688,7 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">RTMP Access Token</th>
+                                    <td><i class="fa fa-question-circle unknown"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
@@ -625,6 +703,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Hotlink Protection</th>
+                                    <!-- https://support.cloudflare.com/hc/en-us/articles/200170026-Understanding-Cloudflare-Hotlink-Protection -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -639,6 +719,8 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">OCSP Stapling</th>
+                                    <!-- https://blog.cloudflare.com/high-reliability-ocsp-stapling/ -->
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>                                    
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-times-circle nope"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -653,6 +735,7 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">DDOS Protection</th>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -678,9 +761,11 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Phone</th>
+                                    <td><i class="fa fa-check-circle-o cost"></i></td>
                                     <td><i class="fa fa-check-circle-o cost"></i></td>
                                     <td><i class="fa fa-check-circle-o cost" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Premium only."></i></td>
                                     <td><i class="fa fa-check-circle-o partially" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Support requests require a ticket."></i></td>
@@ -695,6 +780,7 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">Email</th>
+                                    <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o cost"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
@@ -709,6 +795,7 @@
                                 </tr>
                                 <tr>
                                     <th class="th-comp">24/7</th>
+                                    <td><i class="fa fa-check-circle-o cost"></i></td>
                                     <td><i class="fa fa-check-circle-o cost"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
                                     <td><i class="fa fa-check-circle-o fully"></i></td>
